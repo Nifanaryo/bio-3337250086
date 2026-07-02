@@ -1,13 +1,14 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f8fa;
+    background: linear-gradient(45deg, black, #007bff, black);
     color: #262626;
     margin: 0;
 }
 
 header {
-    background-color: #5237ec;
+    background: linear-gradient(to bottom, #21B0A7, #5237ec);
     color: white;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5);
     padding: 30px;
 }
 
@@ -18,15 +19,6 @@ header {
     gap: 8px;
 }
 
-section {
-    background-color: white;
-    padding: 20px;
-    margin: 20px auto;
-    border: 1px solid #cccccc;
-    border-radius: 8px;
-    max-width: 600px;
-}
-
 .skill-list {
   display: flex;
   flex-wrap: wrap;
@@ -34,7 +26,9 @@ section {
 }
 
 .skill-item {
-  background-color: #21B0A7;
+  background: linear-gradient(to bottom, #21B0A7, blue);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
   color: white;
   padding: 6px 16px;
   border-radius: 20px;
@@ -44,6 +38,7 @@ section {
 .highlight {
   color: #ffffff;
   font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 main {
@@ -51,7 +46,7 @@ main {
 }
 
 section {
-  background-color: white;
+  background: linear-gradient(to right, #21B0A7, #5237ec);
   padding: 20px;
   margin-bottom: 16px;
   border-radius: 8px;
@@ -79,8 +74,9 @@ section {
 }
 
 footer {
-    background-color: #5237ec;
+    background: linear-gradient(to bottom, #21B0A7, #5237ec);
     color: white;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5);
     text-align: center;
     padding: 20px;
 }
